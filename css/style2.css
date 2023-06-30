@@ -1,0 +1,92 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* my style */
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 16px;
+}
+.wrap {
+    width: 1140px;
+    min-height: 824px;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #000;
+}
+.container {
+    width: 556px;
+    background: #e7eeea;
+    border-radius: 15px;
+}
+.left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.green {
+    color: #37523d;
+    font-weight: bold;
+}
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 38px;
+}
+.right h2 {
+    font-size: 28px;
+    margin-bottom: 36px;
+}
+.right p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
